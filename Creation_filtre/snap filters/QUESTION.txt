@@ -1,0 +1,24 @@
+Pillow (PIL) : Une bibliothèque de traitement d'images en Python qui peut être utilisée pour charger, manipuler et enregistrer des images.
+
+Avantages : Simple à utiliser
+Inconvénients : ,Moins puissante qu'OpenCV pour des tâches avancées comme la détection de visages.
+dlib : Une bibliothèque de reconnaissance faciale qui peut également détecter des caractéristiques faciales.
+
+Avantages : Très précise pour la détection et la reconnaissance faciale.
+Inconvénients : Plus complexe à utiliser et moins adaptée pour des opérations générales de traitement d'images.
+
+scikit-image : Une bibliothèque pour le traitement d'images en Python.
+
+Pandas : Bien que principalement utilisée pour la manipulation de données tabulaires, Pandas utilise également des structures de données basées sur NumPy.
+
+
+
+
+
+Mise en dituation
+
+from PIL import Image, ImageOps
+import matplotlib.pyplot as plt
+from skimage import io, transform, color
+import dlib
+
